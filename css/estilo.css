@@ -1,0 +1,100 @@
+/* NAVBAR */
+.colorfondo {
+  background-image: linear-gradient(to right, #d0b76a, #274046);
+}
+
+/* ANCLAS */
+.anclas {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: white;
+}
+
+/* IMGS CAROUSEL */
+.imgCarousel {
+  height: 650px;
+  object-fit: cover;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #d0b76a;
+  color: white;
+}
+
+/* H2 */
+.sizeh2 {
+  font-size: 6rem;
+}
+
+/* IMGS SERVICIOS */
+.container2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* FORMULARIO */
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background-color: #ccc;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* H1 */
+.colorh1 {
+  color: #d0b76a;
+}
+
+/* MEDIAS */
+@media screen and (max-width: 600px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

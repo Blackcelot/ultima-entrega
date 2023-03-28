@@ -1,0 +1,9 @@
+/* FOOTER */
+@mixin footer {
+  background-color: $background-color_1;
+  color: $color_1;
+}
+
+.footer {
+  @include footer;
+}

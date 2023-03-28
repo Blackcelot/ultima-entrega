@@ -1,0 +1,10 @@
+/* ANCLAS */
+@mixin anclas {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $color_1;
+}
+
+.anclas {
+  @include anclas;
+}
